@@ -35,43 +35,45 @@
         </header>
 
         <main>
-            <form>
-                <div class="mb-3">
+            <form id="form-consulta">
+                <h2>Contactanos:</h2>
+                
+
+                <div class="col-md-12 nombre">
+                    <label for="validationCustom01"
+                        class="form-label">Nombre:
+                    </label>
+                    <input type="text" class="form-control"
+                        id="validationCustom01" placeholder="Nombre"
+                        required>
+                </div>
+
+                <div class="col-md-12 apellido">
+                    <label for="validationCustom02"
+                        class="form-label">Apellido:
+                    </label>
+                    <input type="text" class="form-control"
+                        id="validationCustom02" placeholder="Apellido"
+                        required>
+                </div>
+                <div class="col-md-12 email">
                     <label class="form-label">Dirección de correo
-                        electrónico</label>
+                        electrónico:</label>
                     <input type="email" class="form-control"
                         id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Ingrese su Email">
+                        placeholder="Ingrese su Email" required>
 
                 </div>
-
-                <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Nombre
-                        </label>
-                    <input type="text" class="form-control"
-                        id="validationCustom01" placeholder="Nombre" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Apellido
-                        </label>
-                    <input type="text" class="form-control"
-                        id="validationCustom02" placeholder="Apellido" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
-                <div class="mb-3">
+                <div class="mb-3 textarea">
                     <label for="exampleFormControlTextarea1"
-                        class="form-label">Ingrese aquí su consulta</label>
+                        class="form-label">Ingrese aquí su consulta:</label>
                     <textarea class="form-control"
-                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                        id="exampleFormControlTextarea1" rows="3"
+                        maxlength="300" placeholder="consulta..." required></textarea>
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input"
-                        id="exampleCheck1">
+                        id="exampleCheck1" required>
                     <label class="form-check-label"
                         for="exampleCheck1">Validación</label>
                 </div>

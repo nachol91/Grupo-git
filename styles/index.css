@@ -8,8 +8,17 @@ main{
     min-height: 100vh;
 }
 
+#carrousel-main{
+    width: 90%;
+    margin: 20px auto;
 
+}
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
 
 #servicios{
     /* background-color: blue; */
