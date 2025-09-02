@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#form-consulta{
+    margin:20px auto;
+    padding: 15px;
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+
