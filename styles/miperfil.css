@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginContainer {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#form-login {
+    margin:20px auto;
+    padding: 15px;
+    width: 100%;
+    height: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: medium;
+}
