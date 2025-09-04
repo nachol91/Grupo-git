@@ -1,0 +1,22 @@
+#cards-conta{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    margin:10px auto;
+
+}
+
+.card img{
+    margin: 5px auto;
+    border-radius: 50%;
+    width: 80%;
+}
+
+.card-body{
+    text-align: center;
+}
